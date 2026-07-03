@@ -1,0 +1,108 @@
+/* ==========================================
+   CONTACT SECTION
+========================================== */
+
+#contact {
+    background: #111827;
+    padding: 100px 10%;
+}
+
+/* Contact Container */
+
+.contact-box {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+/* Contact Card */
+
+.contact-item {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 18px;
+    padding: 30px;
+    transition: all 0.35s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-8px);
+    border-color: #38bdf8;
+    box-shadow: 0 15px 35px rgba(56, 189, 248, 0.2);
+}
+
+.contact-item h3 {
+    color: #38bdf8;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact-item p {
+    color: #e2e8f0;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.contact-item a {
+    color: #e2e8f0;
+    text-decoration: none;
+    word-break: break-word;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #38bdf8;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 992px) {
+
+    #contact {
+        padding: 80px 8%;
+    }
+
+    .contact-box {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #contact {
+        padding: 70px 6%;
+    }
+
+    .contact-item {
+        padding: 24px;
+    }
+
+    .contact-item h3 {
+        font-size: 22px;
+    }
+
+    .contact-item p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .contact-item {
+        padding: 20px;
+    }
+
+    .contact-item h3 {
+        font-size: 20px;
+    }
+
+    .contact-item p {
+        font-size: 15px;
+    }
+
+}

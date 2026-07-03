@@ -1,0 +1,43 @@
+/* ================================
+   GLOBAL COLORS
+================================ */
+
+:root {
+
+    /* Backgrounds */
+    --bg: #081C15;
+    --section: #1B4332;
+    --card: #163020;
+
+    /* Accent */
+    --primary: #2ECC71;
+    --primary-light: #74C69D;
+
+    /* Text */
+    --white: #FFFFFF;
+    --text: #D8F3DC;
+    --border: #2D6A4F;
+
+    /* Shadow */
+    --shadow: rgba(46, 204, 113, 0.25);
+
+}
+section{
+    min-height:100vh;
+    padding:100px 10%;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.title{
+    font-size:42px;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.highlight{
+    color:#38bdf8;
+}
