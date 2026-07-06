@@ -45,17 +45,17 @@ function Hero() {
 
           <div className="hero-buttons">
 
-            <button className="btn-primary">
-
+            <a
+              href="/resume/Zaiba_Padhiyar_Resume.pdf"
+              download="Zaiba_Padhiyar_Resume.pdf"
+              className="btn-primary"
+            >
               Download Resume
+            </a>
 
-            </button>
-
-            <button className="btn-outline">
-
+            <a href="#contact" className="btn-outline">
               Contact Me
-
-            </button>
+            </a>
 
           </div>
 
