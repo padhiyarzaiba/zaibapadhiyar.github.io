@@ -44,14 +44,13 @@ function Hero() {
           </div>
 
           <div className="hero-buttons">
-
-            <a
-              href="/resume/Zaiba_Padhiyar_Resume.pdf"
-              download="Zaiba_Padhiyar_Resume.pdf"
-              className="btn-primary"
-            >
-              Download Resume
-            </a>
+<a
+  href={`${import.meta.env.BASE_URL}Zaiba_Padhiyar_resume.pdf`}
+  download="Zaiba_Padhiyar_resume.pdf"
+  className="btn-primary"
+>
+  Download Resume
+</a>
 
             <a href="#contact" className="btn-outline">
               Contact Me
